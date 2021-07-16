@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity-Manager</title>
+    <link rel="stylesheet" href="./public/style.css">
+    <script src="https://kit.fontawesome.com/45874c948e.js" crossorigin="anonymous"></script>
+    <script src="./public/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="top">
+        <i id="clocknav" class="fas fa-home" ></i>
+        <i id="timernav" class="fas fa-stopwatch"></i>
+        <i id="todolistnav" class="fas fa-list-alt"></i>
+        <i id="blocknav" class="fas fa-ban"></i>
+    </div>
+
+    <div id="clock" class="tab">
+        <i class="fas fa-cog"></i>
+        <div class = "container">
+            <div id = "timer">00:00</div>
+        </div>
+    </div> 
+
+    <div id="block" class="tab">
+        <h1 id="blockTitle">Blocklist</h1>
+       <div class="blockdiv" style="height:210px; overflow:auto;">
+        <li id=blocklist >
+            <ul>
+            </ul>
+        </li>
+        </div>
+        <input type="url" placeholder="xyz.com" id="blockInputURL"/>
+        <button class="bn3" id="blockbutton">Block</button>
+    </div>
+
+    <div id="timer" class="tab">
+            <i id="timerSettings" class="fa fa-gear" style="font-size:24px"></i>
+            <div class = "options">
+                <h1 id="focus" style="text-align: center;">Timer</h1>
+                <div id = "timershow">00:00</div>
+                <div id = "timerbutton">
+                    <button class="bn3" id = "startButton">Start</button>
+                    <button class="bn3" id = "rstButton">Reset</button>
+                </div>
+            </div>
+    </div> 
+
+    <div id="todolist" class="tab">
+        <h6>Click on Task to mark done!</h6>
+        <h1>Todo</h1>
+        <div class="container-todo" style="height:210px; overflow:auto;">
+            <ul id="todo">
+            </ul>
+        </div>
+        
+        <input id= "todoInputTasks" type="text" placeholder="Enter Task">
+        <button class="bn3" id ="taskAddButton" >Add</button>
+    </div>
+
+    <div id="timerSettings" class="tab">
+        <h1>Settings</h1>
+        <div class="timerSettingsOptions">
+            <label for="focusDur">Focus Duration</label>
+                <input class="user-in" id="focusDur" type="number" min = "0" max="999" maxlength="3" step="5" value="30"><br>
+            <label for="breakDur">Break Duration</label>
+                <input class="user-in" id="breakDur" type="number" min = "0" max="999" maxlength="3" step="5" value="0"><br>
+        </div>
+        <button class="bn3" id="timerSettingsButton">Save</button>    
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $(".tab").hide();
+    $("#clock").show();
+    $("#clocknav").click(function(){
+        $(".tab").hide();
+        $("#clock").show();
+    });
+    $("#blocknav").click(function(){
+        $(".tab").hide();
+        $("#block").show();
+    });
+    $("#timernav").click(function(){
+        $(".tab").hide();
+        $("#timer").show(); 
+    });
+    $("#todolistnav").click(function(){
+        $(".tab").hide();
+        $("#todolist").show(); 
+    });
+});
