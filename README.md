@@ -1,4 +1,4 @@
-# Coding-club-productivity-management
+# Productivity Management Chrome Extension
 
 ## Set up and Demo
 
