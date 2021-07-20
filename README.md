@@ -14,4 +14,4 @@
 ## Description:
     * Creating a Chrome Extension from scratch using JavaScript.
     * Extension has an inbuilt Timer and Todo-list to increase user's efficiency.
-    *Extension has functionality that blocks URLs which are provided by the user as an input.
+    * Extension has functionality that blocks URLs which are provided by the user as an input.
