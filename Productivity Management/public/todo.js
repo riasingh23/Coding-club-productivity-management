@@ -89,11 +89,3 @@ document.addEventListener('DOMContentLoaded', ()=>{
   addListeners();
   updateList();
 });
-
-
-//this will add a new list item with keypress
-/*function addListKeyPress(event) {
-  if (input.value.trim().length > 0 && event.which === 13) {
-    addTask();
-  }
-}*/
