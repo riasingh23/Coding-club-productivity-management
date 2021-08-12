@@ -1,11 +1,9 @@
 # Productivity Management Chrome Extension
 
 ## Team Members
-Vipin Jaluthria<br>
 Ria Singh<br>
-Darshana Thakur<br>
 Kanchan Bharti<br>
-Piyush Pandey<br>
+Neha Kumari<br>
 ## Set up and Demo
 
 1. Clone this repository and `cd` into it:
