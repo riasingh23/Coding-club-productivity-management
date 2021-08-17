@@ -7,7 +7,7 @@ A chrome extension that leverages and combines serveral basic functionalities to
 ## Team Members
 Ria Singh<br>
 Kanchan Bharti<br>
-Neha Kumari<br>
+
 ## Set up and Demo
 
 1. Clone this repository and `cd` into it:
